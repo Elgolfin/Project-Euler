@@ -1,5 +1,7 @@
 ﻿using System;
 using ProjectEuler.Problems;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsoleApplication
 {
@@ -7,8 +9,8 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            var p = new P001();
-            Console.WriteLine(P001.Test());
+            var primeFactors = P003.GetPrimeFactors(600851475143).ToList();
+            Console.Write(primeFactors[primeFactors.Count - 1]);
         }
     }
 }
