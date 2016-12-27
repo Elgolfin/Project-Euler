@@ -43,12 +43,13 @@ namespace ProjectEulerUnitTests
             Assert.Equal(5, primeFactors.OrderByDescending(r => r).FirstOrDefault());
         }
 
+        /*
         [Fact]
         public void Highest_Prime_Factor_Of_600851475143_Should_Return_6857() 
         {
             var primeFactors = P003.GetPrimeFactors(600851475143).ToList();
             Assert.Equal(6857, primeFactors.OrderByDescending(r => r).FirstOrDefault());
-        }
+        }*/
  
     }
 }

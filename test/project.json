@@ -1,17 +1,20 @@
 {
   "version": "1.0.0-*",
-  "testRunner": "xunit",
   "buildOptions": {
     "debugType": "portable"
   },
   "dependencies": {
-    "System.Runtime.Serialization.Primitives": "4.1.1",
     "xunit": "2.1.0",
-    "dotnet-test-xunit": "1.0.0-rc2-192208-24",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "xunit.runner.console": "2.1.0",
     "Problems": {
       "target": "project"
     }
   },
+  "tools": {
+    "OpenCover": "4.6.519"
+  },
+  "testRunner": "xunit",
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
@@ -27,3 +30,4 @@
     }
   }
 }
+
