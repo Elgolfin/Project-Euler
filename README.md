@@ -6,9 +6,7 @@
  - dotnet restore
 
 ## Run
- - cd src/console
- - dotnet run
+ - dotnet run -p src/console
 
-## Test
- - cd test
- - dotnet test
+## test
+ - dotnet test test
