@@ -9,8 +9,8 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            var primeFactors = P003.GetPrimeFactors(600851475143).ToList();
-            Console.Write(primeFactors[primeFactors.Count - 1]);
+            var largestPalindrome = P004.ReturnLargestPalindrome(3);
+            Console.WriteLine($"The largest palindrome made from the product of two 3-digit number is {largestPalindrome}");
         }
     }
 }
